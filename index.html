@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Infinix hot 10 phone discription</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="main">
+   <nav>
+    <div class="logo">
+     <img src="images/logo.png" alt="">
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Phone</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </div>
+   </nav>
+   <div class="information">
+    <div class="overlay"></div>
+    <img src="images/hot10_amber-red_320x479_1-removebg-preview.png" alt="" class="mobile">
+    <div id="circle">
+    <div class="feature one">
+        <img src="images/camera.png" alt="">
+        <div>
+            <h1>Camera</h1>
+            <p>64MP + 2MP + 2MP</p>
+        </div>
+    </div>
+    <div class="feature two">
+        <img src="images/processor.png" alt="">
+        <div>
+            <h1>Processor</h1>
+            <p>Snapdragon OctaCore 11nm</p>
+        </div>
+    </div>
+    <div class="feature three">
+        <img src="images/display.png" alt="">
+        <div>
+            <h1>Display</h1>
+            <p>6.95-inch 720 x 1640 pixels HD+ display</p>
+        </div>
+    </div>
+    <div class="feature four">
+        <img src="images/battery.png" alt="">
+        <div>
+            <h1>Battery Life</h1>
+            <p>5000mAH, 720Hrs Standby</p>
+        </div>
+    </div>
+
+    </div>
+   </div>
+   <div class="controls">
+    <img src="images/arrow.png" alt="" id="upBtn">
+    <h3>Features</h3>
+    <img src="images/arrow.png" alt="" id="downBtn">
+   </div>
+       </div>
+        
+        <script>
+            var circle = document.getElementById("circle");
+            var upBtn = document.getElementById("upBtn");
+            var downBtn = document.getElementById("downBtn");
+
+            var rotateValue = circle.style.transform;
+            var rotateSum;
+            upBtn.onclick = function()
+            {
+
+                rotateSum= rotateValue + "rotate(-90deg)";
+                circle.style.transform= rotateSum;
+                rotateValue= rotateSum;
+            }
+            downBtn.onclick = function()
+            {
+
+                rotateSum= rotateValue + "rotate(90deg)";
+                circle.style.transform= rotateSum;
+                rotateValue= rotateSum;
+            }
+
+            
+
+        </script>
+    </body>
+</html>
